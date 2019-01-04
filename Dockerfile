@@ -6,7 +6,8 @@
 # --------------------
 # Docker build command
 # --------------------
-# docker build -t dshaevel/simple-express-redis --build-arg http_proxy=http://12.239.214.4:8080 .
+# export http_proxy=http://12.239.214.4:8080
+# docker build -t dshaevel/simple-express-redis --build-arg http_proxy=$http_proxy .
 
 # ------------------
 # Docker run command

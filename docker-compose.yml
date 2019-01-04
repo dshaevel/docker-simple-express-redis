@@ -7,6 +7,6 @@ services:
     build:
       context: .
       args:
-        http_proxy: http://12.239.214.4:8080
+        http_proxy: ${http_proxy}
     ports:
       - "4001:8081"
